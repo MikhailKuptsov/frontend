@@ -1,0 +1,40 @@
+.block_page_2{
+    min-height:100vh;
+    width: auto;
+    margin-right:4%;
+    margin-left:4%;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.buttons_list{
+    min-width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons_style_1{
+    margin: 10px;
+}
+
+
+
+.form_block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardStyle_2 label,input,select{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form_element{
+    margin: 5px;
+}
+
+
+.cardStyle{
+    max-width: 500px;
+    min-width:340px; 
+    margin:20px;
+    height: auto;
+}

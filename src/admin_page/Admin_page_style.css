@@ -1,0 +1,28 @@
+.block_page_1{
+    min-height:100vh;
+    margin: 20px;
+}
+
+.search_line{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
+
+.button_style{
+    margin: 20px;
+}
+
+.cards_place{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards_style{
+    margin: 20px;
+    width:300px;
+    height:auto;
+    background-color: white;
+}
