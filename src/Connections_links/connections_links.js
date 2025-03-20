@@ -7,6 +7,7 @@ import {
 
 import Auth_page from '../auth_page/auth_page';
 import Main_page from '../main_page/main_page';
+
 import  Admin_page_3 from '../admin_page/admin_page_v3'
 import Admin_page_4 from '../admin_page/admin_page_v4';
 import Admin_page_5 from '../admin_page/admin_page_v5';
@@ -14,12 +15,19 @@ import Admin_page_6 from '../admin_page/admin_page_v6';
 import Create_person_page from '../person_information_page/create_person_page'
 import Person_information_page_v2 from '../person_information_page/person_information_page_v2';
 
+import One_test_page_v3 from '../audit_test_page/One_test_page_v3'
+import test_data from '../tests_data_text/management.json'
+
+import Planning_audit_page from '../planning_audit_page/planning_audit_page';
+
 const connections_links=[
     // Ссылка на Страницу аутентификации
     // {path_link:"/", componet_page:<Auth_page/> },
     {path_link:"/", componet_page:<Auth_page/> },
     // Ссылка на главную страницу
     {path_link:"/Main_page", componet_page:<Main_page /> },
+
+    {path_link:"/Planning_audit_page", componet_page:<Planning_audit_page /> },
     // страница админа
     // {path_link:"/Admin_page", componet_page:<Admin_page/> },
     // {path_link:"/Admin_page", componet_page:<Admin_page_3/> },
@@ -40,7 +48,7 @@ const connections_links=[
     // //                                                 time="12.01.2021 12:00"
     // //                                                 category={test_data.managment_data}/> },
     
-    // {path_link:"/test_page_v2/management/:fabric_name_2/:audit_name/:time_2",componet_page:<One_test_page_v3 category={test_data.managment_data}/>},
+    {path_link:"/test_page_v2/management/:fabric_name_2/:audit_name/:time_2",componet_page:<One_test_page_v3 category={test_data.managment_data}/>},
     // // {path_link:"/test_page_v2/management/:fabric_name_2/:audit_name/:time_2",componet_page:<One_test_page_v3 file_test={test_data_management.sub_test}/>},
 
     // // Страница проверки назначенных аудитов

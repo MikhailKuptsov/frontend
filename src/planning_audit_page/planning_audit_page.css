@@ -1,0 +1,12 @@
+.block_page_planning_audits{
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.block_input_audit{
+    display: flex;
+    flex-direction: column;
+}
+.input_audit{
+    margin: 5px;
+}
